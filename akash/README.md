@@ -35,7 +35,7 @@ Akash suggests setting a minimum gas price and using Fastsync v0.
 
 [Polkachu's Chain Services](https://www.polkachu.com/) make bootstrapping a node extremely easy. They provide live peers, statesync and pruned snapshots.
 
-Note you should choose between statesync and snapshot bootstrapping, snapshot will take precedence.
+Note you should choose between statesync and snapshot bootstrapping, snapshot will take precedence..
 
 |Variable|Value|
 |---|---|
