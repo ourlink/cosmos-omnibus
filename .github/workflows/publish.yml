@@ -17,7 +17,7 @@ jobs:
       matrix:
         include:
           - project: comdex
-            version: v13.3.0
+            version: v11.5.2
     steps:
       - uses: actions/checkout@v3
       - uses: docker/setup-buildx-action@v2
