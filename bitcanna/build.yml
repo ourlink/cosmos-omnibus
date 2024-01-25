@@ -11,7 +11,7 @@ services:
         VERSION: v3.0.0
         REPOSITORY: https://github.com/BitCannaGlobal/bcna
         NAMESPACE: BCNAD
-        BUILD_IMAGE: binary_zip
+        BUILD_IMAGE: binary_tarz
         BINARY_URL: https://github.com/BitCannaGlobal/bcna/releases/download/v3.0.0/bcna_linux_amd64.tar.gz
     ports:
       - '26656:26656'
