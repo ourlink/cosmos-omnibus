@@ -11,7 +11,8 @@ services:
         VERSION: v3.0.0
         REPOSITORY: https://github.com/BitCannaGlobal/bcna
         NAMESPACE: BCNAD
-        GOLANG_VERSION: 1.21.6-bookworm
+        BUILD_IMAGE: binary_zip
+        BINARY_URL: https://github.com/BitCannaGlobal/bcna/releases/download/v3.0.0/bcna_linux_amd64.tar.gz
     ports:
       - '26656:26656'
       - '26657:26657'
