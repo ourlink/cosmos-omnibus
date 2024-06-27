@@ -16,8 +16,8 @@ jobs:
       max-parallel: 12
       matrix:
         include:
-          - project: bitcanna
-            version: v3.1.0
+          - project: comdex
+            version: v14.1.0
     steps:
       - uses: actions/checkout@v4
       - uses: docker/setup-buildx-action@v3
