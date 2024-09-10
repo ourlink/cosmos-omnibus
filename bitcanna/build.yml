@@ -11,8 +11,6 @@ services:
         VERSION: v3.1.1
         REPOSITORY: https://github.com/BitCannaGlobal/bcna
         NAMESPACE: BCNAD
-        GOLANG_VERSION: 1.22.4-bookworm
-        DEBIAN_VERSION: bookworm
     ports:
       - '26656:26656'
       - '26657:26657'
